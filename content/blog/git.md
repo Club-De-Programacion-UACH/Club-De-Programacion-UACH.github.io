@@ -34,6 +34,8 @@ sudo apt update
 sudo apt install git
 # pacman (arch)
 sudo pacman -S git
+# dnf (fedora/redhat)
+sudo dnf install git
 ```
 
 ### En macOS

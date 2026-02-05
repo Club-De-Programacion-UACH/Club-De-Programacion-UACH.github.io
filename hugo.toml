@@ -1,0 +1,8 @@
+baseURL = 'https://example.org/'
+languageCode = 'es-mx'
+title = 'Club de Programacion'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

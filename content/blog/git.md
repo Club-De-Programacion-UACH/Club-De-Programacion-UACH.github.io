@@ -124,7 +124,7 @@ git pull origin main
 
 ## Recursos adicionales
 
-* **Recomendado**: [Libro de Git](https://git-scm.com/book/en/v2)
+* **Recomendado**: [Libro oficial de Git](https://git-scm.com/book/en/v2)
 * [Documentación oficial de Git](https://git-scm.com/doc)
 * [GitHub Guides](https://guides.github.com/)
 

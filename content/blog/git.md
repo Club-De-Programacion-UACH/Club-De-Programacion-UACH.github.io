@@ -82,7 +82,7 @@ git log
 
 GitHub es una plataforma que permite guardar repositorios de Git en la nube.
 
-> GitHub, la plataforma, no es lo mismo Git, la herramienta
+> GitHub, la plataforma, no es lo mismo que Git, la herramienta
 
 ```bash
 # Clonar un repositorio

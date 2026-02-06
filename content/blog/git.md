@@ -59,34 +59,22 @@ git config --global user.email "matricula@uach.mx"
 
 ## Comandos básicos
 
-### Inicializar un repositorio
 
 ```bash
+# Inicializar un repositorio
 git init
-```
 
-### Ver el estado
-
-```bash
+# Ver el estado
 git status
-```
 
-### Agregar archivos
-
-```bash
+# Agregar archivos
 git add archivo.py # Agregar un archivo específico
-git add . # Agregar todos los archivos
-```
+git add .          # Agregar todos los archivos
 
-### Hacer un commit
-
-```bash
+# Hacer un commit
 git commit -m "Descripción de los cambios"
-```
 
-### Ver el historial
-
-```bash
+# Ver el historial
 git log
 ```
 
@@ -94,25 +82,18 @@ git log
 
 GitHub es una plataforma que permite guardar repositorios de Git en la nube.
 
-> GitHub, la plataforma, no es lo mismo Git, la herramienta
-
-### Clonar un repositorio
+> GitHub, la plataforma, no es lo mismo que Git, la herramienta
 
 ```bash
+# Clonar un repositorio
 git clone https://github.com/usuario/repositorio.git
-```
 
-### Subir cambios
-
-```bash
+# Subir cambios
 git add .
 git commit -m "Mis cambios"
 git push origin main
-```
 
-### Actualizar desde el repositorio remoto (GitHub)
-
-```bash
+# Actualizar desde el repositorio remoto (GitHub)
 git pull origin main
 ```
 

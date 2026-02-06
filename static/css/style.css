@@ -1,10 +1,106 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: sans-serif;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
   max-width: 800px;
   margin: 2rem auto;
   padding: 0 1rem;
+  line-height: 1.3;
+  color: #222;
+}
+
+/* Nav & Footer */
+header {
+  margin-bottom: 2rem;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
 }
 
 nav a {
-  margin-right: 1rem;
+  text-decoration: none;
+  color: #0366d6;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  padding-top: 1.5rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+footer a {
+  color: inherit;
+}
+
+main a {
+  color: #0366d6;
+}
+
+article {
+  margin-top: 2rem;
+}
+
+article h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+article h2 {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  border-bottom: 1px solid #acacac;
+  padding-bottom: 0.3rem;
+}
+
+article h3 {
+  font-size: 1.25rem;
+  margin: 0.2rem 0;
+}
+
+article li {
+  margin: 0.2rem 0;
+}
+
+article blockquote {
+  margin: 0.2rem 0;
+  padding: 0.75rem 1rem;
+  border-left: 4px solid #ccc;
+  background: #f8f8f8;
+  color: #555;
+}
+
+article blockquote p {
+  margin: 0;
+}
+
+.highlight {
+  background: #272822;
+  overflow-x: auto;
+}
+
+.highlight pre {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  margin: 0;
+}
+
+article p code,
+article li code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.9em;
+  background: #f0f0f0;
+  padding: 0.15rem 0.35rem;
+  border-radius: 4px;
 }

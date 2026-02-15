@@ -1,4 +1,18 @@
-@import url("https://cdn.jsdelivr.net/npm/geist@1.7.0/dist/fonts/geist-sans/style.css");
+@font-face {
+  font-family: "Geist";
+  src: url("/fonts/Geist/Geist-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  src: url("/fonts/Geist_Mono/GeistMono-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
 
 *,
 *::before,
@@ -28,7 +42,7 @@ body {
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  font-family: "Geist Sans", sans-serif;
+  font-family: "Geist", Roboto, sans-serif;
   line-height: 1.45;
   color: var(--text);
   background: var(--bg);
@@ -153,6 +167,7 @@ blockquote {
   background: #272822;
   border-radius: 8px;
   overflow-x: auto;
+  font-family: "Geist Mono";
 }
 
 .highlight pre {

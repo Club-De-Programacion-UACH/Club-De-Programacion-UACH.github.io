@@ -1,4 +1,3 @@
-@import url("https://cdn.jsdelivr.net/npm/geist@1.7.0/dist/fonts/geist-pixel/style.css");
 @import url("https://cdn.jsdelivr.net/npm/geist@1.7.0/dist/fonts/geist-sans/style.css");
 
 *,
@@ -29,7 +28,7 @@ body {
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  font-family: "Geist Pixel", "Geist Pixel Square", "Geist Sans", ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-family: "Geist Sans", sans-serif;
   line-height: 1.45;
   color: var(--text);
   background: var(--bg);

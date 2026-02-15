@@ -17,7 +17,7 @@ Los cursos estaran organizados en módulos independientes, permitiendo que asi q
 
 Las fechas se haran llegar por el grupo de Whatsapp.
 
-### Sesión 1: Control de Versiones con Git
+### Sesión 1: [Control de Versiones con Git](/blog/git)
 
 - Instalacion y conceptos básicos de control de versiones
 - Flujo de trabajo con Git

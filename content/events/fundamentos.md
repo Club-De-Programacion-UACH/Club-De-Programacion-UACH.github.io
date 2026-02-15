@@ -23,7 +23,7 @@ Las fechas se haran llegar por el grupo de Whatsapp.
 - Flujo de trabajo con Git
 - Introducción a plataformas colaborativas (GitHub)
 
-### Sesión 2: Introducción a Go
+### Sesión 2: [Introducción a Go](/blog/go)
 
 - Instalacion y sintaxis básica
 - Estructuras de control y funciones

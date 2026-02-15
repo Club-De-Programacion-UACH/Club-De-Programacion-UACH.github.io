@@ -127,7 +127,8 @@ main > ul,
   font-size: 1.2rem;
   color: var(--brand-purple);
   font-weight: 700;
-  white-space: nowrap;
+  white-space: normal;
+  word-break: break-word;
 }
 
 .title::before {

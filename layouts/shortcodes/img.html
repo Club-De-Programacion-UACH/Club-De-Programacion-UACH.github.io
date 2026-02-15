@@ -1,0 +1,5 @@
+{{ $img := resources.Get (.Get "src") }}
+{{ $resized := $img.Resize (.Get "size") }}
+{{ $center := .Get "center" }}
+
+<img src="{{ $resized.RelPermalink }}" width="{{ $resized.Width }}" height="{{ $resized.Height }}" class="{{ if eq $center "true" }}img-center{{ end }}">

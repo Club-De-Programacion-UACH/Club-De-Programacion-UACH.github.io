@@ -4,11 +4,11 @@ title: ICPC - International Collegiate Programming Contest
 
 El **International Collegiate Programming Contest (ICPC)** es una competencia universitaria de programación en donde equipos de tres estudiantes, representando a la universidad, compiten para resolver el mayor número posible de problemas algorítmicos en un tiempo límite (generalmente 5 horas).
 
-El ICPC tiene una estructura jerárquica que empieza con competencias locales hasta una final mundial.
+{{< img src="img/icpc-logo.png" size="300x" center="true" >}}
 
 ## Estructura del ICPC (Fechas)
 
-El ICPC funciona en ciclos que tipicamente se organizan así:
+El ICPC tiene una estructura jerárquica que empieza con competencias locales hasta una final mundial funcionando en ciclos que tipicamente se organizan así:
 
 1. **Primavera – Verano (mayo a septiembre)**. Cada país organiza sus propias fases clasificatorias. En México, estas incluyen concursos nacionales que determinan qué equipos avanzan a la fase regional.
 2. **Noviembre**. Los mejores equipos del país compiten en la **Regional Latinoamérica**. Aquí se define qué universidades avanzan a la Final Mundial.

@@ -184,7 +184,7 @@ article li code {
 }
 
 footer {
-  margin-top: auto;
+  margin-top: 1.6rem;
   padding: 0.8rem;
   background: var(--panel);
   border: 1px solid var(--panel-border);

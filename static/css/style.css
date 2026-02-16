@@ -86,18 +86,52 @@ body {
   color: var(--brand-purple);
 }
 
-nav {
+.site-nav {
   display: flex;
   gap: 0.85rem;
   flex-wrap: wrap;
   padding-left: 1rem;
 }
 
-nav a {
+.site-nav a {
   color: var(--brand-purple);
   text-decoration: underline;
   text-underline-offset: 2px;
   font-size: 1.15rem;
+}
+
+@media (max-width: 700px) {
+  body {
+    padding: 0.8rem;
+  }
+
+  .site-header {
+    padding: 0.8rem;
+    justify-content: center;
+  }
+
+  .brand {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .brand-logo {
+    width: 72px;
+    height: 72px;
+  }
+
+  .site-nav {
+    width: 100%;
+    padding-left: 0;
+    justify-content: center;
+    gap: 0.45rem;
+  }
+
+  .site-nav a {
+    font-size: 1rem;
+    padding: 0.2rem 0.35rem;
+  }
 }
 
 main {
@@ -184,7 +218,7 @@ article li code {
 }
 
 footer {
-  margin-top: auto;
+  margin-top: 1.6rem;
   padding: 0.8rem;
   background: var(--panel);
   border: 1px solid var(--panel-border);
@@ -239,4 +273,3 @@ button:hover {
   display: block;
   margin: 0 auto;
 }
-

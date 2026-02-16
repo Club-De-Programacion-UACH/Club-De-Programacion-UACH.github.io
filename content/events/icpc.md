@@ -14,7 +14,7 @@ El ICPC consta de **tres fechas de exámenes**, más una extra de repechaje, los
 
 ## Resumen Visual del Ciclo
 
-```
+```sh
 GranPremioMX2026
 ├─ ?? de Mayo → Primera Fecha   (Fecha por confirmar)
 ├─ ?? de Junio → Segunda Fecha  (Fecha por confirmar)
